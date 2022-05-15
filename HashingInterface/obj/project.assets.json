@@ -1,0 +1,66 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "HashingAndEncrptionLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/HashingAndEncrptionLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HashingAndEncrptionLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HashingAndEncrptionLibrary/1.0.0": {
+      "type": "project",
+      "path": "../HashingAndEncrptionLibrary/HashingAndEncrptionLibrary.csproj",
+      "msbuildProject": "../HashingAndEncrptionLibrary/HashingAndEncrptionLibrary.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v2.1": [
+      "HashingAndEncrptionLibrary >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\HP\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\HP\\Documents\\Visual Studio 2017\\Projects\\HashingAndEncryption\\HashingInterface\\HashingInterface.csproj",
+      "projectName": "HashingInterface",
+      "projectPath": "C:\\Users\\HP\\Documents\\Visual Studio 2017\\Projects\\HashingAndEncryption\\HashingInterface\\HashingInterface.csproj",
+      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\HP\\Documents\\Visual Studio 2017\\Projects\\HashingAndEncryption\\HashingInterface\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp2.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "projectReferences": {
+            "C:\\Users\\HP\\Documents\\Visual Studio 2017\\Projects\\HashingAndEncryption\\HashingAndEncrptionLibrary\\HashingAndEncrptionLibrary.csproj": {
+              "projectPath": "C:\\Users\\HP\\Documents\\Visual Studio 2017\\Projects\\HashingAndEncryption\\HashingAndEncrptionLibrary\\HashingAndEncrptionLibrary.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "netcoreapp2.1": {}
+    }
+  }
+}
